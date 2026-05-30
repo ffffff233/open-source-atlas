@@ -4,6 +4,23 @@
 
 这个仓库不是排行榜，也不写热度数字。它只做一件事：把值得阅读、值得拆解、值得长期跟踪的真实开源项目按方向整理清楚，让你打开后能马上知道该看什么、为什么看、适合谁看。
 
+## 项目信息
+
+| 项目 | 内容 |
+| --- | --- |
+| 当前版本 | 0.2.0 |
+| 协议 | MIT |
+| 维护者 | ffffff233 |
+| 联系邮箱 | 15172148532@163.com |
+| 升级记录 | [CHANGELOG.md](CHANGELOG.md) |
+| 运维记录 | [operations-log.md](ops/operations-log.md) |
+
+## 推广与收录
+
+想被推广的话，可以发送项目链接、项目说明和维护状态到 15172148532@163.com。
+
+所有推广申请都会审核。发送邮件不代表一定收录，也不代表一定推荐。
+
 ## 怎么阅读
 
 - 想学一个方向，先看下面的分区索引。
@@ -90,7 +107,10 @@ python3 scripts/validate_catalog.py --remote
 │   └── 12-productivity-automation.md
 ├── scripts
 │   └── validate_catalog.py
+├── ops
+│   └── operations-log.md
+├── CHANGELOG.md
+├── VERSION
 ├── CONTRIBUTING.md
 └── LICENSE
 ```
-
