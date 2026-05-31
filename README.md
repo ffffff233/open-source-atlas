@@ -8,16 +8,16 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 当前版本 | 0.2.0 |
+| 当前版本 | 0.3.0 |
 | 协议 | MIT |
 | 维护者 | ffffff233 |
-| 联系邮箱 | 15172148532@163.com |
+| 联系邮箱 | denget2026@163.com |
 | 升级记录 | [CHANGELOG.md](CHANGELOG.md) |
 | 运维记录 | [operations-log.md](ops/operations-log.md) |
 
 ## 推广与收录
 
-想被推广的话，可以发送项目链接、项目说明和维护状态到 15172148532@163.com。
+想被推广的话，可以发送项目链接、项目说明和维护状态到 denget2026@163.com。
 
 所有推广申请都会审核。发送邮件不代表一定收录，也不代表一定推荐。
 
@@ -45,6 +45,14 @@
 | 文档与知识管理 | 文档站、知识库、笔记系统、写作工具 | [10-docs-knowledge.md](catalog/10-docs-knowledge.md) |
 | 游戏与图形 | 游戏引擎、渲染、2D、3D、创作工具 | [11-game-graphics.md](catalog/11-game-graphics.md) |
 | 生产力与自动化 | 协作、日历、工作流、个人服务 | [12-productivity-automation.md](catalog/12-productivity-automation.md) |
+| 收入与商业化项目 | 电商、CRM、计费、客服、分析、低代码 | [13-revenue-business.md](catalog/13-revenue-business.md) |
+| AI Agent 与 LLM 应用 | agent、RAG、工具调用、记忆、评测、LLMOps | [14-ai-agents.md](catalog/14-ai-agents.md) |
+
+## 收录合规
+
+本仓库可以疯狂收录合法、有维护价值、有学习价值的项目，但不收违法项目。
+
+详细规则见 [submission-policy.md](docs/submission-policy.md)。
 
 ## 收录标准
 
@@ -104,11 +112,15 @@ python3 scripts/validate_catalog.py --remote
 │   ├── 09-testing-quality.md
 │   ├── 10-docs-knowledge.md
 │   ├── 11-game-graphics.md
-│   └── 12-productivity-automation.md
+│   ├── 12-productivity-automation.md
+│   ├── 13-revenue-business.md
+│   └── 14-ai-agents.md
 ├── scripts
 │   └── validate_catalog.py
 ├── ops
 │   └── operations-log.md
+├── docs
+│   └── submission-policy.md
 ├── CHANGELOG.md
 ├── VERSION
 ├── CONTRIBUTING.md
